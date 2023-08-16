@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import LogoTitle from '../../assets/images/logo-s.png';
+import LogoTitle from '../../assets/images/logo-b.png';
 import './index.scss';
 
 const Home = () => {
@@ -9,11 +9,11 @@ const Home = () => {
                 <h1>
                     Hi, <br /> I'm
                     <img src={LogoTitle} alt="developer"/>
-                    lobodan
+                    rooke
                     <br />
                     web developer
                 </h1>
-                <h2>Frontend Developer / JavaScript Expert / YouTuber</h2>
+                <h2>Software Engineer / Frontend Developer </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
